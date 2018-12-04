@@ -13,6 +13,11 @@ header {
     margin-bottom: 30px
 }
 
+.logo {
+    background-color: #4aaaa5;
+    padding-bottom: 21px;
+}
+
 main {
     float: left;
     display: block;
