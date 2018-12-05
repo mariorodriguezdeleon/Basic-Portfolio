@@ -60,7 +60,10 @@ footer {
 
 #logo {
     float: left;
-    background-color: black
+    background-color: #4aaaa5;
+    color: black;
+    margin: 0px;
+    padding: 20px;
 }
 
 #headerContent {
