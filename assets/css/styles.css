@@ -19,16 +19,21 @@ header {
 nav{
     float: right;
     margin-top: 30px;
+    color: #777;
 }
 
 main {
     background-color: white;
-    width: 960px;
+    max-width: 960px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
     height: 450px;
+}
+
+main > h1 {
+    margin-left: 20px;
+    padding-top: 20px;
 }
 
 img {
@@ -40,6 +45,7 @@ img {
 
 hr {
     margin-bottom: 20px;
+    width: 920px;
 }
 
 p {
@@ -47,13 +53,14 @@ p {
 }
 
 footer {
-    clear: both;
-    overflow: auto;
+    /* clear: both; */
+    /* overflow: auto; */
     background-color: #777;
-    color: black;
+    color: white;
     text-align: center;
     position: fixed;
-    left: 0;
+    height: 75;
+    /* left: 0; */
     bottom: 0;
     width: 100%;
 }
@@ -61,7 +68,7 @@ footer {
 #logo {
     float: left;
     background-color: #4aaaa5;
-    color: black;
+    color: white;
     margin: 0px;
     padding: 20px;
 }
