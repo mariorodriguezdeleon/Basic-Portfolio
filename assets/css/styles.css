@@ -53,14 +53,12 @@ p {
 }
 
 footer {
-    /* clear: both; */
-    /* overflow: auto; */
     background-color: #777;
+    border-top: 5px solid #4aaaa5;
     color: white;
     text-align: center;
     position: fixed;
     height: 75;
-    /* left: 0; */
     bottom: 0;
     width: 100%;
 }
