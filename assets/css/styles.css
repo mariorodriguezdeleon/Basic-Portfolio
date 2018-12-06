@@ -22,6 +22,12 @@ nav{
     color: #777;
 }
 
+a:link {
+    color: #777;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
 main {
     background-color: white;
     max-width: 960px;
@@ -43,9 +49,10 @@ img {
     margin-bottom: 10px;
 }
 
-hr {
+main > hr {
     margin-bottom: 20px;
     width: 920px;
+    color: #777;
 }
 
 p {
