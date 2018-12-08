@@ -40,7 +40,6 @@ a:visited {
 main {
     background-color: #ffffff;
     max-width: 960px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -106,11 +105,12 @@ footer {
 }
 
 #field{
-    width: 100%;
+    width: 98%;
+    padding: 5px;
 }
 
 #message {
-    width: 100%;
+    width: 98%;
 }
 
 #formLabels {
@@ -120,7 +120,9 @@ footer {
 /*Classes*/
 
  .row {
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .button {
